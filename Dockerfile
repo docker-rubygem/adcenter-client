@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=7.0.3
+ENV VERSION=8.0.0
 
 RUN gem install adcenter-client --version ${VERSION} --no-format-exec
 
